@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scr", "scr", "{C90155BB-7415-4FC2-9058-4D088D810D0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{CE324BAF-B4F4-4690-9AF4-B86F075716FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{68AA0AD9-4313-4F52-A115-418197EFA626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{5B4A3883-DABB-4DAE-A555-EE633401D41A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseApp.Domain", "GildedRose.Domain\GildedRoseApp.Domain.csproj", "{6DD38BD1-CB00-496F-8C8E-CAE9880E692E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseApp.Infrastructure.CrossCutting", "GildedRose.Infrastructure\GildedRoseApp.Infrastructure.CrossCutting.csproj", "{192F46ED-77B8-4E63-B456-1ACA7F5AB59E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseApp.ConsoleApplication", "GildedRose\GildedRoseApp.ConsoleApplication.csproj", "{49313C5F-EBD8-48AD-B7E0-649CD1301A0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GildedRoseApp.Application", "GildedRose.Application\GildedRoseApp.Application.csproj", "{6A737222-DF6F-4528-965C-4473C85BDFF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD38BD1-CB00-496F-8C8E-CAE9880E692E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD38BD1-CB00-496F-8C8E-CAE9880E692E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD38BD1-CB00-496F-8C8E-CAE9880E692E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD38BD1-CB00-496F-8C8E-CAE9880E692E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192F46ED-77B8-4E63-B456-1ACA7F5AB59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192F46ED-77B8-4E63-B456-1ACA7F5AB59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192F46ED-77B8-4E63-B456-1ACA7F5AB59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192F46ED-77B8-4E63-B456-1ACA7F5AB59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49313C5F-EBD8-48AD-B7E0-649CD1301A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49313C5F-EBD8-48AD-B7E0-649CD1301A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49313C5F-EBD8-48AD-B7E0-649CD1301A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49313C5F-EBD8-48AD-B7E0-649CD1301A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A737222-DF6F-4528-965C-4473C85BDFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A737222-DF6F-4528-965C-4473C85BDFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A737222-DF6F-4528-965C-4473C85BDFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A737222-DF6F-4528-965C-4473C85BDFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE324BAF-B4F4-4690-9AF4-B86F075716FF} = {C90155BB-7415-4FC2-9058-4D088D810D0D}
+		{68AA0AD9-4313-4F52-A115-418197EFA626} = {C90155BB-7415-4FC2-9058-4D088D810D0D}
+		{5B4A3883-DABB-4DAE-A555-EE633401D41A} = {C90155BB-7415-4FC2-9058-4D088D810D0D}
+		{6DD38BD1-CB00-496F-8C8E-CAE9880E692E} = {68AA0AD9-4313-4F52-A115-418197EFA626}
+		{192F46ED-77B8-4E63-B456-1ACA7F5AB59E} = {5B4A3883-DABB-4DAE-A555-EE633401D41A}
+		{49313C5F-EBD8-48AD-B7E0-649CD1301A0B} = {C90155BB-7415-4FC2-9058-4D088D810D0D}
+		{6A737222-DF6F-4528-965C-4473C85BDFF3} = {CE324BAF-B4F4-4690-9AF4-B86F075716FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13A94B65-3AD6-40E8-9B49-0BDC0B6457FD}
+	EndGlobalSection
+EndGlobal
