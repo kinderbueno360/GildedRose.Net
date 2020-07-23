@@ -1,5 +1,10 @@
 # GildedRose.Net
 
+This is a application designed to solve the Gilded Rose Refactoring Kata. This API is using .Net Core 2.2, HostedService, Railway Oriented, Onion Architecture with DDD aproach, Swagger and Docker.
+
+This is the link to the Kata requirements.
+
+https://github.com/emilybache/GildedRose-Refactoring-Kata
 
 ## Installation
 
@@ -16,6 +21,17 @@ Open Command and go to the Application Folder and execute restore command.
 ```
 dotnet restore
 ```
+
+## Architecture
+- Onion Architecture
+
+<p align="center">
+<img src="docs/onion-architecture.jpg" width="800" align="center">
+</p>
+
+## Technologies used:
+
+- Native .Net Core DI
 
 ## Usage
 
